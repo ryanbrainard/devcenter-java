@@ -1,1 +1,1 @@
-web:    java -cp target/classes:target/dependency/* HelloWorld
+web:    java -cp helloworld-1.0-SNAPSHOT-jar-with-dependencies.jar HelloWorld
