@@ -9,6 +9,7 @@ public class HelloWorld extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
+        System.out.println(req.getQueryString());
         resp.getWriter().print("Hello from Java!\n");
     }
 
